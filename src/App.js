@@ -32,7 +32,7 @@ function App() {
         <form onSubmit={handleSubmit}>
           <input
             type="text"
-            placeholder="Search"
+            placeholder="Search a book..."
             autoComplete="off"
             onChange={handleChange}
           />

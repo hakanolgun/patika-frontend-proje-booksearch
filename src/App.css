@@ -12,6 +12,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #dbd70a;
+  background: -webkit-linear-gradient(top left, #747204, #94556b);
+  background: -moz-linear-gradient(top left, #747204, #94556b);
+  background: linear-gradient(to bottom right, #747204, #94556b);
+  padding-bottom: 2rem;
+}
+.header > h1{
+  color: #dbd70a;
 }
 
 .books-grid-container {
@@ -54,13 +62,20 @@
   color: rgb(40, 40, 40);
 }
 form > input{
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0.3rem;
   font-size: 1rem;
-  padding: 0.3rem;
+  padding: 0.4rem;
   margin-right: 0.5rem;
+  padding-left: 0.6rem;
 }
 form > button{
-  padding: 0.3rem 0.4rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.4rem 0.5rem;
   font-size: 1rem;
+  background-color: #dbd70a;
 }
 footer{
   box-sizing: border-box;
