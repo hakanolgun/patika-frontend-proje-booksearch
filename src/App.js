@@ -2,6 +2,10 @@ import "./App.css";
 import { useState } from "react";
 import axios from "axios";
 
+
+//Kendime Not: Fetch edilen datanın her item'ı için aynı bilgiler bulunmayabiliyor.
+//Bu nedenle ternary operatoru ile eğer o bilgi yoksa yerine başka birşey göstermek gerekebiliyor.
+
 function App() {
   const [book, setBook] = useState("");
   const [result, setResult] = useState([]);
